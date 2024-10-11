@@ -1,0 +1,62 @@
+html {
+    font-size: 30px;
+}
+
+#percentages {
+    background-color: #98c1d9;
+    width: 700px;
+    height: 400px;
+}
+
+#percentages div {
+    background-color: pink;
+    width: 70%;
+    height: 30%;
+}
+
+
+#ems h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+#ems h3 {
+    font-size: 1.5em;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems {
+    font-size: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+#ems ul {
+    font-size: 1.5em;
+}
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+}
