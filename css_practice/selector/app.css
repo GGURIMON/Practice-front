@@ -1,0 +1,33 @@
+button {
+    font-size: 15px;
+    background-color: #b5e48c;
+}
+
+/* ID는 # 으로 표기 */
+#signup,
+#login {
+    background-color: #52b69a;
+    color: #184e77;
+}
+
+/* 복수로 묶어서 선택 가능 */
+h1,
+h2 {
+    color: #52b69a;
+}
+
+body {
+    background-color: #d9ed92;
+}
+
+span {
+    color: #184e77;
+}
+
+/* 클래스는 . 으로 표기 */
+.tag {
+    background-color: #0077b6;
+    color: #03045e;
+    font-size: 18px;
+    letter-spacing: 2px;
+}

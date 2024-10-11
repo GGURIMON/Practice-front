@@ -1,0 +1,18 @@
+h2 {
+    color: rgb(180, 212, 0);
+    background-color: rgb(89, 151, 0);
+}
+
+button {
+    color: #5FCFFC;
+    background-color: powderblue;
+}
+
+p {
+    color: blue;
+    background: linear-gradient(palevioletred, purple);
+}
+
+body {
+    background-color: purple;
+}
