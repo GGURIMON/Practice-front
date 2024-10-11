@@ -106,3 +106,12 @@ p::after {
     color: #ca6702;
     content: " <<";
 }
+
+button:hover {
+    background-color: olive;
+    /* font-size: 13px; */
+}
+
+/* h1 {
+    color: red !important;
+} */
