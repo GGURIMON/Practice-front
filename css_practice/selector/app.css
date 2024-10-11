@@ -4,8 +4,7 @@ button {
 }
 
 /* ID는 # 으로 표기 */
-#signup,
-#login {
+#signup {
     background-color: #52b69a;
     color: #184e77;
 }
@@ -30,4 +29,38 @@ span {
     color: #03045e;
     font-size: 18px;
     letter-spacing: 2px;
+}
+
+/* 자손 셀렉터 */
+.post a {
+    color: #0081a7;
+}
+
+footer a {
+    color: #f07167;
+}
+
+input[type="password"] {
+    color: pink;
+}
+
+input+button {
+    background-color: pink;
+}
+
+h2+button {
+    font-size: 20px;
+    color: magenta;
+}
+
+footer>a {
+    color: lightblue;
+}
+
+section.post {
+    color: #0077b6;
+}
+
+a[href*="google"] {
+    color: aqua;
 }
