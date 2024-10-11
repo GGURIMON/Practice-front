@@ -34,6 +34,8 @@ span {
 /* 자손 셀렉터 */
 .post a {
     color: #0081a7;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer a {
@@ -63,4 +65,22 @@ section.post {
 
 a[href*="google"] {
     color: aqua;
+}
+
+.post button:hover {
+    background-color: #ffd60a;
+    color: #f1faee;
+}
+
+.post a:hover {
+    color: #f1faee;
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #ca6702;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #81b29a;
 }
