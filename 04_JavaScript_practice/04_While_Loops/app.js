@@ -1,0 +1,43 @@
+// let count = 0;
+// while (count < 10) {
+//     count++;
+//     console.log(`count: ${count}`);
+// }
+
+// const SECRET = "PassWord";
+// let typePW = prompt("Enter the password");
+// while (typePW !== SECRET) {
+//     typePW = prompt("Enter the password");
+// }
+// alert("Congratulation!");
+
+let input = parseInt(prompt("enter a number"));
+while (!parseInt(input)) {
+    input = parseInt(prompt("its not a number, enter a number"));
+}
+
+const target = Math.floor(Math.random() * input) + 1;
+console.log(target);
+
+let tries = 1;
+
+let guess = prompt("guess a number");
+while (parseInt(guess) !== target) {
+    if (guess === "q") {
+        break;
+    }
+    tries++;
+    if (guess > target) {
+        guess = prompt("too high, guess again");
+    } else if (guess < target) {
+        guess = prompt("too low, guess again");
+    } else if (guess !== q && guess === target) {
+        break;
+    }
+}
+if (guess === "q") {
+    console.log("you quit");
+}
+else {
+    console.log(`congrats you tried ${tries} times`);
+}
