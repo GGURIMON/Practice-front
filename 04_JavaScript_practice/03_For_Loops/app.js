@@ -36,6 +36,6 @@
 
 const list = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
 
-for (fruit of list) {
+for (let fruit of list) {
     console.log(fruit);
 }
