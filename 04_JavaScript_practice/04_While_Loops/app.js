@@ -12,7 +12,7 @@
 // alert("Congratulation!");
 
 let input = parseInt(prompt("enter a number"));
-while (!parseInt(input)) {
+while (!input) {
     input = parseInt(prompt("its not a number, enter a number"));
 }
 
@@ -21,17 +21,19 @@ console.log(target);
 
 let tries = 1;
 
-let guess = prompt("guess a number");
+let guess = prompt("guess a number (it you want to quit press 'q')");
 while (parseInt(guess) !== target) {
     if (guess === "q") {
         break;
     }
-    tries++;
+    guess = parseInt(guess);
     if (guess > target) {
         guess = prompt("too high, guess again");
+        tries++;
     } else if (guess < target) {
         guess = prompt("too low, guess again");
-    } else if (guess !== q && guess === target) {
+        tries++;
+    } else if (guess !== "q" && guess === target) {
         break;
     }
 }
