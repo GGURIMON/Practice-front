@@ -33,3 +33,9 @@
 // for (let i = 0; i <= people.length; ++i) {
 //     console.log(people[i].toUpperCase());
 // }
+
+const list = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+
+for (fruit of list) {
+    console.log(fruit);
+}

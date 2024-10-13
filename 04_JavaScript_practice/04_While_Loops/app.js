@@ -33,8 +33,8 @@ while (parseInt(guess) !== target) {
     } else if (guess < target) {
         guess = prompt("too low, guess again");
         tries++;
-    } else if (guess !== "q" && guess === target) {
-        break;
+    } else {
+        guess = prompt("invalid input,enter a number");
     }
 }
 if (guess === "q") {
